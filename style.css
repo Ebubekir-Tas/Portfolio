@@ -29,8 +29,8 @@ button {
 	margin: 2rem 0rem;
 	padding: 2rem;
 	box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  justify-content: space-between;
-  max-height: 200px;
+  	justify-content: space-between;
+  	max-height: 200px;
 }
 
 /* width */
@@ -40,19 +40,19 @@ button {
 
 /* Track */
 .card::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  	box-shadow: inset 0 0 5px grey; 
+  	border-radius: 10px;
 }
  
 /* Handle */
 .card::-webkit-scrollbar-thumb {
-  background: -webkit-linear-gradient(#64d8cd, #64aaeb); 
-  border-radius: 10px;
+  	background: -webkit-linear-gradient(#64d8cd, #64aaeb); 
+  	border-radius: 10px;
 }
 
 /* Handle on hover */
 .card::-webkit-scrollbar-thumb:hover {
-  background: -webkit-linear-gradient(#64aaeb, #64d8cd);; 
+  	background: -webkit-linear-gradient(#64aaeb, #64d8cd);; 
 }
 
 #card1 {
@@ -153,8 +153,8 @@ h2,
 p {
 	color: #658ec6;
 	font-weight: 500;
-  opacity: 0.8;
-  word-wrap:break-word;
+  	opacity: 0.8;
+  	word-wrap:break-word;
 }
 
 #portfolio-visibility{
