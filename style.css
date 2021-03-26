@@ -8,6 +8,12 @@ a {
 	text-decoration: none;
 }
 
+.arrow{
+	display: none;
+	color: #658ec6;
+	opacity: 0.8;
+}
+
 button {
 	height: 100%;
 	background-color: transparent;
@@ -367,5 +373,8 @@ main {
 	}
 	#portfolio-visibility{
 		display: flex;
+	}
+	.arrow{
+		display: inline;
 	}
 }
