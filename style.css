@@ -366,6 +366,14 @@ main {
 	margin: 5rem 0 3rem;
 }
 
+#gh-link:hover {
+	cursor: pointer
+}
+
+#gh-link {
+	color: #658ec6;
+}
+
 /* Typing effect */
 @keyframes typing {
 	from {
