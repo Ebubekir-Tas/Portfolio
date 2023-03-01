@@ -132,6 +132,15 @@ button {
 	justify-content: left;
 }
 
+#card5 {
+	opacity: 0;
+	animation: fadeInUp 3s forwards;
+	animation-delay: 5s;
+	text-align: left;
+	overflow-y: auto;
+	justify-content: left;
+}
+
 .card-info {
 	display: flex;
 	flex-direction: column;
@@ -200,6 +209,7 @@ h1 {
 	opacity: 0.8;
 }
 h2,
+sub,
 p {
 	color: #658ec6;
 	font-weight: 500;
@@ -344,10 +354,6 @@ main {
 	font-weight: 500;
 	opacity: 0.8;
 	text-decoration: none;
-}
-
-.status {
-	margin-bottom: 3rem;
 }
 
 .status input {
